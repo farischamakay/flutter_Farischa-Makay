@@ -79,6 +79,12 @@ Berikut implementasi dari penggunaan merge no fast forward :
 ![Task05](screenshots/Task05_MergeNoFF.png)
 
 
+### Resume
+3 Points yang saya pelajari dari section 03 ini yaitu :
+1. Braching. Point penting pertama yang saya pelajari yaitu bagaimana cara membuat branching sehingga tidak mengganggu project pada branch master
+2. Mengatasi Conflict. Point penting kedua yang saya pelajari ialah bagaimana cara menyelesaikan conflict dikarenakan conflict hal yang akan sering terjadi ketika melakukan kolaborasi bersama tim menggunakan git.
+3. Merging. Point penting ketiga yang dapat saya pelajari yaitu bagaimana cara untuk menggabungkan kode yang ada pada branch dengan branch yang lain.
+
 
 
 
