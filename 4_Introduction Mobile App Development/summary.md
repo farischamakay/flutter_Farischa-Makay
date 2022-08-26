@@ -14,11 +14,11 @@ Nama        : Farischa Makay <br>
 Dalam pengembangan software, aplikasi dibangun dengan menggunakan **Bahasa Pemrograman**, bahasa perograman. Bahasa pemrograman adalah rangkaian teks yang digunakan untuk memberi perintah kepada komputer. Untuk membaca Bahasa pemrogragraman bisa mengunakan software sebagai compiler atau interpreter. <br>
 
 Compiler akan membaca perintah-perintah dalam bahasa pemrograman dan mengubahnya ke bahasa lain, biasanya ke dalam bentuk yang dikenali oleh komputer, seperti machine code. Machine code adalah kumpulan instruksi yang hanya dikenali oleh mesin.<br>
-Proses kerja Compiler : 
+Proses kerja Compiler : <br>
 ![Mekanisme_Compiler](screenshots/Summary01_MekanismeCompiler.png)
 
 Berbeda dengan compiler, interpreter membaca perintah-perintah dalam bahasa pemrograman dan menjalankan langsung perintah-perintah tersebut.
-<br> Proses kerja Interpreter :
+<br> Proses kerja Interpreter : <br>
 ![Mekanisme_Interpreter](screenshots/Summary01_MekanismeInterpreter.png) 
 <br>
 Keunggulan dari Interpreter ialah progresnya lebih singkat namun seringkali lambat karena harus membaca ulang keseluruhan kode, sedangkan pada compiler program dapat dijalankan lebih karena tidak membaca kode. <br>
