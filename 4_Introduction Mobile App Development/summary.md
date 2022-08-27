@@ -31,3 +31,16 @@ Untuk Mobile Development, Mobile App Development dibagi menjadi 2 yakni iOS dan 
 **Aplikasi Android** adalah software untuk perangkat mobile yang mencakup sistem operasi. Android awalnya dikembangkan oleh Android, Inc. namun sekarang berkembang luas karena open source. Ekstensi file dari android adalah .apk <BR>
 ![source:alibaba](https://s.alicdn.com/@sc04/kf/H3c40aa94848d4f1985e33a59797330cb5.png_960x960.png) <br>
 
+
+
+## Task pratikum 
+  1. 5 bahasa Pemrograman untuk membuat aplikasi mobile :
+    a. C# untuk windows
+    b. Kotlin untuk mobile android
+    c. Dart untuk mobile android
+    d. Java untuk mobile android
+    e. Swift untuk mobile iOS.
+2. a. 3 aplikasi yang hanya dapat berjalan di iOS : Apple TV, iTunes, Apple Maps.
+   b. 3 aplikasi yang hanya dapat berjalan di android : GB WhatsApp, AirDroid, Opera
+Max.
+  
