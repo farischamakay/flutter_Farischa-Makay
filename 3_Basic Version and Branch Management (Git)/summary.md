@@ -40,8 +40,50 @@ Reset adalah proses dimana kita akan kembali ke kondisi file tertentu dimasa lal
 --soft akan mengebalikan dengan kondisi file dalam keadaan staged <br>
 --mixed akan mengebalikan dengan kondisi file dalam keadaan modified <br>
 --hard akan mengebalikan dengan kondisi file dalam keadaan commited <br>
+## Task
+### Task 01
+Saya membuat repository Github dengan nama **section_03**. Berikut adalah ilustrasi halaman repository Github tersebut.
+![Task01](screenshots/Task01_Repository.png)
+
+### Task 02
+Saya menambahkan 3 branch yakni development, featureA, featureB pada repositori remote sehingga saat ini saya memiliki branch master, development, featureA, featureB. Perintah yang saya gunakan untuk membuat branch : ```git branch --nama branch``` dan untuk pindah branch saya menggunakan perintah : ```git checkout --nama branch```. Berikut hasil branch yang telah saya buat :
+![Task02](screenshots/Task02_Braching.png)
+
+### Task 03
+Pada task ketiga saya mengimplementasikan penggunaan perintah ``` push, pull, stash, merge ``` <br>
+**Push** : perintah untuk mengirimkan perubahan ke master branch dari remote repository yang berhubungan dengan direktori.
+![Task03a](screenshots/Task03_Push.png)
+
+**Pull** : Perintah untuk menggabungkan semua perubahan yang ada di remote repository ke direktori lokal.
+![Task03b](screenshots/Task03_Pull.png)
+
+**Stash** : Perintah untuk membantu menyimpan perubahan yang tidak langsung di-commit, namun hanya sementara. <br>
+Hasil berikut merupakan penggambaran menggunakan stash. Pada file **test.txt** ditambahkan mencoba tambah file.
+![Task03c](screenshots/Task03_Stash_Sebelum.png)
+Selanjutnya ketika melakukan perintah, stash kalimat pada text hilang.
+![Task03d](screenshots/Task03_Stash_Sesudah.png)
 
 
+**Merge** : Perintah merge digunakan untuk menggabungkan sebuah branch ke branch aktif.
+![Task04](screenshots/Task03_Merge.png)
+<br>
+
+### Task 04
+Pada case penanganan conflict ini, pertama-tama saya menggabungkan branch featureA dengan branch development. Kemudian pada branch featureB untuk file **dev.txt** pada line ke 4 saya menambahkan text _menambah sesuatu agar terjadi conflict di branch featureB_, setelah saya push saya berpindah ke branch development dan mengedit line di  yang sama yakni **dev.txt** dengan text _mengubah sesuatu agar terjadi conflict di branch featureB_ setelah saya push dan melakukan merge dari ```featureB -> development``` akan terjadi conflict sebagai berikut :
+![Task04a](screenshots/Task04_Conflict.png) 
+untuk mengatasi conflict tersebut saya menghapus salah satu text yang conflict yakni _menambah sesuatu agar terjadi conflict di branch featureB_, kemudian saya melakukan push hasil dari file **dev.txt** saat ini yang ada di branch ```development``` sebagai berikut :
+![Task04b](screenshots/Task04_PenangananConflict.png)
+
+### Task 05 
+Berikut implementasi dari penggunaan merge no fast forward :
+![Task05](screenshots/Task05_MergeNoFF.png)
+
+
+### Resume
+3 Points yang saya pelajari dari section 03 ini yaitu :
+1. Braching. Point penting pertama yang saya pelajari yaitu bagaimana cara membuat branching sehingga tidak mengganggu project pada branch master
+2. Mengatasi Conflict. Point penting kedua yang saya pelajari ialah bagaimana cara menyelesaikan conflict dikarenakan conflict hal yang akan sering terjadi ketika melakukan kolaborasi bersama tim menggunakan git.
+3. Merging. Point penting ketiga yang dapat saya pelajari yaitu bagaimana cara untuk menggabungkan kode yang ada pada branch dengan branch yang lain.
 
 
 
