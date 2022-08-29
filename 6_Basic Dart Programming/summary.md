@@ -6,9 +6,9 @@ Nama : Farischa Makay <br>
 Pada section 06 ini saya belajar mengenai Basic Dart Programming. Beberapa points kesimpulan yang saya dapat ambil dari materi yang telah dipaparkan :
 ### Function (Lanjutan)
 1. Anonymous Function. untuk membuat function, kita membuat nama terhadap sebuah function tersebut namun kita juga dapat mendeklarasikan function tanpa nama (Anonymous Function), anonymous function bisa dibuat sebagai data pada parameter contoh sebagai berikut :
-![PenjelasanAnonymousFunction](/screenshots/contoh01_anonymous_function.jpg)
+[PenjelasanAnonymousFunction](/screenshots/contoh01_anonymous_function.jpg)
 2. Arrow Function. Arrow Function bisa memiliki nama atau tidak, berisi satu data(dari proses maupun data statis) dan nilai return fungsi diambil dari data tersebut. Sebagai contoh sebagai berikut :
-![ArrowFunction](/screenshots/contoh01_arrow_function.jpg)
+[ArrowFunction](/screenshots/contoh01_arrow_function.jpg)
 Fungsi hello melakukan print di dalamnya, fungsi jumlah memberi nilai saat dijalankan sehingga dapat dilakukan print.
 ### Async - Await
 Dengan menggunakan Async - Await kita dapat menjalankan beberapa proses tanpa perlu menunggu, proses ditulis dalam  bentuk fungsi. Function dengan keyword Await akan menunggu hingga proses async selesai. Untuk lebih memahami berikut simulasi proses asynchronous :
@@ -17,7 +17,7 @@ Pada simulasi kita memiliki 2 fungsi untuk menampilkan teks yakni fungsi P1 dan 
 [HasiltanpaAwait](/screenshots/contoh02_tanpaawait.jpg)
 
 Agar kita dapat menjalankan proses layaknya synchronous kita menggunakan Async - Await. 
-![HasilProsesAsync](/screenshots/contoh02_kode.jpg)
+[HasilProsesAsync](/screenshots/contoh02_kode.jpg)
 Dengan menerapkan code diatas kita akan mendapat hasil p1 yang akan tereksekusi dahulu dikarenakan kita menggunakan await dimana await akan membuat P1 tereksekusi dahulu kemudian P2.
 
 ### Tipe Data Future
