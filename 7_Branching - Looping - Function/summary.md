@@ -7,13 +7,13 @@ Nama        : Farischa Makay <br>
 ### Branching
 Percabangan (branching) adalah salah satu bentuk kontrol program. Percabangan berguna untuk mengatur alur jalannya program sesuai dengan suatu kondisi yang terpenuhi. Terdapat 3 keywords percabangan pada dart yakni If, else if dan else. <br>
 **- IF** <BR>
- Bentuk percabangan ```if``` digunakan untuk memutuskan apakah suatu pernyataan atau blok pernyataan tertentu akan dieksekusi atau tidak, jika kondisi tertentu benar maka blok pernyataan dieksekusi, namun jika salah maka tidak akan dieksekusi. if hanya memiliki 1 blok pilihan yang akan dieksekusi jika kondisi bool true. Contohnya sebagai berikut :
- ![BranchingIf](screenshots/gambaran_branching_if.png)
+ Bentuk percabangan ```if``` digunakan untuk memutuskan apakah suatu pernyataan atau blok pernyataan tertentu akan dieksekusi atau tidak, jika kondisi tertentu benar maka blok pernyataan dieksekusi, namun jika salah maka tidak akan dieksekusi. if hanya memiliki 1 blok pilihan yang akan dieksekusi jika kondisi bool true. Contohnya sebagai berikut : <br>
+ ![BranchingIf](screenshots/gambaran_branching_if.png) <br>
  Dari kode diatas usia bernilai benar kurang dari 20 sehingga layar akan mengeksekusi kondisi if dengan menampilkan output "Remaja" 
  <br>
 
 **- ELSE IF** <br>
-![BranchingElseIf](screenshots/gambaran_branching_else_if.png)
+![BranchingElseIf](screenshots/gambaran_branching_else_if.png) <br>
   Bentuk percabangan ini digunakan untuk pengambilan keputusan jika kondisi if di atasnya bernilai SALAH atau FALSE, maka akan melakukan pengecekan tambahan pada kondisi kedua yang berada setelah else if. Jika kondisi kedua bernilai TRUE maka else if akan dijalankan.
 
 **- ELSE** <BR>
@@ -22,13 +22,13 @@ Percabangan (branching) adalah salah satu bentuk kontrol program. Percabangan be
 ### LOOPING
 Perulangan (Looping) adalah proses dimana akan menjalankan proses secara berulang kali hingga suatu kondisi tercapai. Jenis-jenis looping antara lain for, while dan do-while loop. <br>
 **- For** <br>
-![LoopingFor](screenshots/gambaran_loop_for.png)
+![LoopingFor](screenshots/gambaran_loop_for.png) <br>
 Perulangan ini baik digunakan jika kita mengetahui seberapa banyak kita akan menjalankan bagian dari kode tersebut oleh karena itu perlu diketahui berapa lama perulangan terjadi, memerlukan nilai awal, memerlukan nilai bool, jika true maka perulangan dilanjutkan, dan juga memerlukan pengubah nilai. <br>
 **- While** <br>
-![LoopingWhile](screenshots/gambaran_while.png)
+![LoopingWhile](screenshots/gambaran_while.png) <br>
 Perulangan ini digunakan untuk mengulang kode tertentu sebanyak waktu yang tidak diketahui, hingga suatu kondisi terpenuhi dan memerlukan nilai bool, jika true maka perulangan dilanjutkan. <br>
 **- Do While** <br>
-![LoopingDoWhile](screenshots/gambaran_do_while.png)
+![LoopingDoWhile](screenshots/gambaran_do_while.png) <br>
 Perulangan ini digunakan untuk mengeksekusi kode paling tidak sekali dan kemudian secara berulang menjalankan kodenya atau tergantung pada kondisi Boolean nya untuk menjalankan kodenya diakhir. <br>
 **Break dan Continue** <br>
 Break dan continue adalah  cara lain untuk menghentikan perulangan dengan mengabaikan nilai boolean. Break adalah cara untuk menghentikan seluruh proses perulangan dan Continue adalah cara untuk menghentikan satu kali proses perulangan. <br>
