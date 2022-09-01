@@ -7,9 +7,9 @@ Nama : Farischa Makay
 Task pada section 03, terdapat 2 tasks yakni task 01 seputar percabangan dan task 02 seputar penggunaan looping. <BR>
 ### Task 01 
 Task 01 bagian a yaitu apabila user menginput nilai yang lebih dari 70 akan mencetak nilai A. Saya mengimplementasikan percabangan if dengan code ```if( nilai > 70){ print (Nilai anda : A)}``` Berikut hasilnya :<br>
-![Task01a](screenshots/Task01a.jpg) <br>
+![Task01a](/screenshots/Task01a.jpg) <br>
 Task 01 bagian b. Saya mengimplementasikan percabangan else if dengan code ```else if( nilai > 40 && nilai < 70){ print('Nilai anda : B')}```, maksud dari kode tersebut ialah apabila user menginput nilai lebih dari 40 dan kurang dari 70 bernilai true, maka akan mencetak nilai B. Berikut hasilnya : <br>
-![Task01b](screenshots/Task01b.jpg) <br>
+![Task01b](/screenshots/Task01b.jpg) <br>
 Task 01 bagian c. Saya mengimplementasikan percabangan else if dengan code ```else if( nilai > 0 && nilai < 40){ print('Nilai anda : C)'}```, maksud dari kode tersebut ialah apabila user menginput nilai lebih dari 0 dan kurang dari 40 bernilai true, maka akan mencetak nilai C. Berikut hasilnya : <br>
 ![Task01c](screenshots/Task01c.jpg)<BR>
 Task 01 bagian d. Saya mengimplementasikan percabangan else dengan code ```else { print(' '}```, maksud dari kode tersebut ialah apabila user menginput nilai yang tidak berada pada kondisi lebih dari 0, maka akan tercetak baris kosong. Berikut hasilnya : <br>
