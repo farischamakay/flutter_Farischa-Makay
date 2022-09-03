@@ -9,7 +9,7 @@ Kemudian untuk perkalian saya mendeklarasikan variabel ```n``` yang akan menampu
 
 ### Task 02
 Pada task nomor 2 terdapat 2 perintah yakni yang pertama ialah membuat list dalam list. Pada pratikum ini saya mendeklarasikan list ```mahasiswa[]```. Kemudian pada list saya menambah list yang berisikan ```(['Adi','IT','2019'],['Budi','Industri','2020'],['Chindy','Teknik Nuklir','2019'])```. Setelah itu saya membuat map dengan keys ```'nama','jurusan','angkatan'```. Berikut hasil dari Task 02 : <br>
-![Task02](screenshots/Task02.jpg)
+![Task02](/screenshots/Task02.jpg)
 
 
 
