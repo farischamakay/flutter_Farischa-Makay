@@ -1,6 +1,4 @@
-perkalian (int a, int b) {
-    return a * b;
-  }
+var perkalian = ( int a, int b) => a * b;
 
 void main() async {
   var nilai = [10, 20, 30, 40, 50];
@@ -13,8 +11,4 @@ void main() async {
   });
   
   print(x);
- 
-  
-
-
 }
