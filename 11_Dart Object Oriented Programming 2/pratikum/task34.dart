@@ -36,18 +36,21 @@ class KelipatanPersekutuanTerkecil implements Matematika {
   hasil() {
     var hasil = x;
     while(hasil %y != 0 ){
-      hasil = hasil + x;
-
-      
+      hasil = hasil + x;      
     }
     return hasil;
   }
 }
 
 void main(List<String> args) {
-  var operation1 = FaktorPersekutuanTerbesar();
-  var operation2 = KelipatanPersekutuanTerkecil();
-  print('Hasil FPB : ${operation1.hasil()}');
-  print('Hasih KPK : ${operation2.hasil()}');
+
+  List<Matematika> data = [];
+  data.add(FaktorPersekutuanTerbesar());
+  data.add(KelipatanPersekutuanTerkecil());
+
+  print('Hasil FPB dan KPK adalah ');
+  for (var operation in data){
+    print(operation.hasil());
+  }
 }
 
