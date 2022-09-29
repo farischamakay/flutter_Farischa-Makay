@@ -1,24 +1,19 @@
 import 'dart:ffi';
 
-import 'task12.dart';
+class BangunRuang{
+  double panjang = 0;
+  double lebar = 0;
+  double tinggi = 0;
 
-abstract class BangunRuang{
-  double panjang;
-  double lebar;
-  double tinggi;
-
-  BangunRuang(this.panjang,this.lebar, this.tinggi);
 
   void volume(){
-    print('Bangun ruang memiliki volume');
+    print('Volume dari bangun ruang adalah ');
   }
-
-
 }
 
 class Kubus extends BangunRuang {
   double sisi;
-  Kubus(super.panjang,super.lebar,super.tinggi,this.sisi);
+  Kubus(this.sisi);
 
   @override 
   void volume(){
@@ -29,8 +24,11 @@ class Kubus extends BangunRuang {
 }
 
 class Balok extends BangunRuang {
-  Balok(super.panjang,super.lebar,super.tinggi);
-  
+  Balok(){
+    this.panjang = 3;
+    this.lebar = 4;
+    this.tinggi = 5;
+  }
   @override
   void volume() {
     var hasil = panjang * lebar * tinggi;
@@ -39,9 +37,18 @@ class Balok extends BangunRuang {
 }
 
 void main(List<String> args) {
-  var kubus = Kubus(0,0,0,3);
-  kubus.volume();
+  // var kubus = Kubus(0,0,0,3);
+  // kubus.volume();
 
-  var balok = Balok(3, 4, 5);
-  balok.volume();
+  // var balok = Balok(3, 4, 5);
+  // balok.volume();
+
+  List<BangunRuang> data = [];
+  data.add(Kubus(3));
+  data.add(Balok());
+
+  print('Hasil volume Bangun Ruang adalah ');
+  for (var bangun in data) {
+    bangun.volume();
+  }
 }
