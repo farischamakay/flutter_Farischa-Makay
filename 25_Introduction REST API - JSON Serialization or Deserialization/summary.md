@@ -8,11 +8,11 @@ Pada section kali ini, saya belajar mengenai REST API - JSON serialization/desen
 
 ### REST API
 REST API merupakan singkatan dari Representational State Transfer Application Programming Interface. REST API merupakan jembatan antara server dan client. Arsitektural yang memisahkan tampilan dengan proses bisnis dan bagian tampilan dengan proses bisnis berkirim data melalui HTTP request. Simulasinya dapat digambarkan sebagai berikut :<br>
-![]
+![restapi](https://github.com/farischamakay/flutter_Farischa-Makay/blob/65d7d8f84eebd9df7f8c88780269f6c9264211b3/25_Introduction%20REST%20API%20-%20JSON%20Serialization%20or%20Deserialization/screenshots/simulasi%20REST%20API.jpg)
 
 ### HTTP
 HTTP merupakan protokol yang digunakan untuk berkirim data pada internet, biasanya data tersebut berbentuk media web. Pola komunikasi bisa disimulasikan sebagai berikut : <br>
-![]<BR>
+![http](https://github.com/farischamakay/flutter_Farischa-Makay/blob/65d7d8f84eebd9df7f8c88780269f6c9264211b3/25_Introduction%20REST%20API%20-%20JSON%20Serialization%20or%20Deserialization/screenshots/http.jpg)<BR>
 Client mengirim request kemudian Server mengolah dan membalas dengan memberi response.
 Struktur Request :
 - URL. URL merupakan alamat halaman yang akan diakses.
