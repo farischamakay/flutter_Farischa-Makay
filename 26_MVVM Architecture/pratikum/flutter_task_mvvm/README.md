@@ -1,16 +1,12 @@
-# flutter_task_mvvm
+# (26) MVVVM Architecture
+## Data Diri
+Nomor Urut : 1_009FLB_38 <br>
+Nama : Farischa Makay
 
-A new Flutter project.
+## Task
+Pada section kali ini, saya mengerjakan tugas project dengan menerapkan MVVM Architecture. Project yang saya terapkan MVVM ialah project contact list yang datanya diambil dari ```https://reqres.in/```
+Pada task project yang telah saya buat saya telah  memisahkan page ViewModel dan page utama. Pada project saya dapat kita liat pada page home dan page list saya telah membuat viewmodelnya secara terpisah.
 
-## Getting Started
+Pada halaman ```homepage``` saya telah membuat viewmodel ketika user menekan tombol GET, POST, PUT dan juga DELETE.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Kemudian pada halaman ```listpage``` saya telah membuat viewmodel diamana ketika user menekan tombol go to list contact maka listpage akan menampilkan data contact dari user.
