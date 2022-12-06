@@ -1,16 +1,10 @@
-# flutter_finite_task
+# (24) Finite State Machines
+## Data Diri
+Nomor Urut : 1_009FLB_38 <br>
+Nama : Farischa Makay
 
-A new Flutter project.
+## Task
+Pada task kali ini saya melanjutkan project contact dengan penerapan MVVM dan menambahkan satu tombol baru yakni ```Go to List Menu``` untuk menuju halaman baru yang datanya diambil dari ```https://my-json-server.typicode.com/hadihammurabi/flutter-webservice/foods```. 
 
-## Getting Started
+Kemudian pada task 02 yakni melakukan unit test pada model api dengan menerapkan model mocking. Api yang digunakan pada project ini yaitu ````https://reqres.in/```. Pada folder ```test``` saya telah membuat user test skenario pada setiap pengambilan,pembuatan, edit dan juga delete data.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
